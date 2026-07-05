@@ -1,0 +1,29 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore compiled C/C++ binaries (any file without an extension, assuming they are binaries, but it's tricky. Let's specifically ignore known binary names or patterns)
+# A common pattern for DSA folders is to ignore all executables. 
+# Since we can't easily ignore files without extensions, we will ignore specific known binaries and build folders.
+
+# Build and debug folders
+build/
+.vscode/
+*.dSYM/
+*.o
+*.out
+*.exe
+
+# specific binaries seen in repo
+bacis arrays
+basic string
+conditional statement
+demo
+else-if
+for lopp
+hello
+if-else
+while loop
+age
+character square patter
+prog
+test_prog
